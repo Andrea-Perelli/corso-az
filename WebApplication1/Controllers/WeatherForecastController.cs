@@ -29,5 +29,10 @@ namespace WebApplication1.Controllers {
         public WeatherForecast GetOne() {
             return new WeatherForecast() { Date=DateOnly.MinValue, Summary="Ciao", TemperatureC=25};
         }
+
+        [HttpGet("Get2")]
+        public WeatherForecast GetTwo() {
+            return new WeatherForecast() { Date = DateOnly.MinValue, Summary = "Ciao", TemperatureC = 25 };
+        }
     }
 }
