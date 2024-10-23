@@ -32,7 +32,7 @@ namespace WebApplication1.Controllers {
 
         [HttpGet("Get2")]
         public WeatherForecast GetTwo() {
-            return new WeatherForecast() { Date = DateOnly.MinValue, Summary = "Ciao", TemperatureC = 25 };
+            return new WeatherForecast() { Date = DateOnly.MinValue, Summary = "Ciao", TemperatureC = 24 };
         }
     }
 }
